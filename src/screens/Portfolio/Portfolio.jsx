@@ -45,6 +45,7 @@ export const Portfolio = () => {
               description={currentProject.description}
               image={currentProject.image}
               url={currentProject.url}
+              urlCode={currentProject.urlCode}
             />
           )}
           {projectList}

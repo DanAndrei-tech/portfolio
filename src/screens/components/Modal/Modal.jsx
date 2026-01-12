@@ -8,7 +8,7 @@ import "./Modal.css";
  * @param {string} url - string:url of the modal
  */
 
-export const Modal = ({ onClick, title, description, image, url }) => {
+export const Modal = ({ onClick, title, description, image, url, urlCode }) => {
   return (
     <div className="modal-container">
       <div className="modal-content">
@@ -21,7 +21,7 @@ export const Modal = ({ onClick, title, description, image, url }) => {
         <a href={url} target="_blank" rel="noreferrer">
           <button className="btn">Visit site</button>
         </a>
-        <a href={url} target="_blank" rel="noreferrer">
+        <a href={urlCode} target="_blank" rel="noreferrer">
           <button className="btn">View Code</button>
         </a>
       </div>

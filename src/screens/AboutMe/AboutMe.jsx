@@ -10,10 +10,13 @@ export const AboutMe = () => {
         <div>
           <h1>About me</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Consequuntur qui nemo rem voluptatem non pariatur quod vel eaque
-            fuga culpa, ut porro. Ullam non magni porro perferendis praesentium
-            ipsum dolore.
+            I am a junior web developer about to complete my formal training and
+            actively looking for my first professional opportunity in the tech
+            industry. I enjoy building practical, well-structured web
+            applications and working with modern technologies such as HTML, CSS,
+            TypeScript, React, SQL, Git, and PHP. I am motivated, eager to
+            learn, and ready to grow as a developer in a real-world team
+            environment.
           </p>
         </div>
       </div>
